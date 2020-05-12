@@ -1,0 +1,14 @@
+resolver: lts-15.12
+
+packages:
+- .
+
+# extra-deps:
+# - acme-missiles-0.3
+# - git: https://github.com/commercialhaskell/stack.git
+#   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
+# Override default flag values for local packages and extra-deps
+flags: {}
+
+# Allow a newer minor version of GHC than the snapshot specifies
+compiler-check: newer-minor
